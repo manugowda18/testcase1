@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* img{
+    height: 130px;
+    width: auto;
+} */ 
+.teamcontainerteam p {
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: larger;
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 2px;
+    color: rgb(255, 255, 255);
+}
+
+.teamcontainerteam img {
+    height: 140px;
+}
+
+.teamcontainerteam .cardicon {
+    margin-top: 20px;
+    height: 200px;
+    width: 140px;
+    margin-left: 3px;
+    margin-right: 3px;
+    line-height: 15px;
+}
+.teamcontainerteam .cardicon h6 {
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.teamcontainerteam .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.teamcontainerteam .cardicon{
+    flex: 0 0 calc(30% - 10px);
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+
+
+/* Default styles for the list items */
+ul li {
+    font-family: 'Tektur', cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.navbarabc {
+    padding-left: 30px;
+    padding-right: 30px;
+    z-index: 1000;
+    position: relative;
+
+}
+
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    ul li {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .navbarabc {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+    ul li {
+        font-size: 20px;
+        /* Further adjust font size for even smaller screens */
+    }
+
+    .navbarabc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+a button {
+    font-family: 'Tektur', cursive;
+}

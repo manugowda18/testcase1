@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;600;700;900&family=Roboto:wght@400;500&family=Tektur&family=Tomorrow:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=PT+Serif:ital,wght@0,700;1,700&display=swap');
+
+/* .full-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+} */
+* {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.full-card:hover h1 {
+    color: rgb(255, 255, 255);
+}
+
+.card-img:hover {
+    transform: translateX(10px);
+    transition: transform 0s ease-in-out;
+}
+
+.full-card {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    /* background-color: rgba(204, 204, 204, 0.349); */
+    height: 256px;
+    display: flex;
+    border-radius: 30px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.card-img {
+    height: 200px;
+    margin-right: 0;
+    margin-left: 70px;
+    border-radius: 30px;
+    transition: transform 8s ease-in-out;
+}
+
+.card-img img {
+    /* width: 1500px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    position: relative;
+    animation: fadeIn 1s ease-in-out forwards;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.card-img:hover img {
+    filter: grayscale(0%);
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    margin-left: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card-img:hover .img-overlay {
+    opacity: 1;
+    /* Display on hover */
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Tomorrow', sans-seri;
+    font-size: 50px;
+}
+
+.full-card h1 {
+    font-size: 120px;
+    margin-left: 30px;
+    align-self: center;
+    color: rgba(141, 143, 145, 0.607);
+    font-family: 'Tomorrow', sans-seri;
+    /* Set initial opacity to 0 for fade-in effect */
+    animation: fadeIn 1s ease-in-out forwards;
+    filter: grayscale(0%);
+    transition: filter 0.3s ease-in-out;
+    opacity: 1;
+}
+
+
+.text-container {
+    width: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 480px) {
+    .small-divice {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .full-card {
+        display: none;
+    }
+
+    .small-divice h3 {
+        color: aliceblue;
+        text-align: center;
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 5px;
+    }
+}

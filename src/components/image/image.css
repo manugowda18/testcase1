@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  cursor: none,
+}
+
+.Image-container .Bottom-image {
+  height: 600px;
+  width: auto;
+  /* Adjust as needed */
+  animation: floating 5s ease-in-out infinite;
+  cursor: none,
+}
+
+
+
+
+.Image-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  cursor: none,
+}
+
+
+
+/* .Bottom-image {
+  width: auto; /* Adjust as needed */
+/* ; */
+/* } */
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .Bottom-image {
+    width: auto;
+    height: 400px;
+    /* Adjust as needed */
+ }
+} 
+
+@media (max-width: 480px) {
+  .Bottom-image {
+    display: none;
+    /* Adjust as needed */
+  }
+}
+
+@keyframes floating {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}

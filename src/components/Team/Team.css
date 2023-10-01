@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.team-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+
+.full-team {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 8px;
+}
+
+
+/* .leftscroll {
+    height: 500px;
+    width: 500px;
+}
+
+.leftscroll h1 {
+    color: aliceblue;
+} */
+
+.rightteam img {
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    animation: floating 5s ease-in-out infinite;
+}
+
+.rightteam {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    /* Adjust the width as needed */
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+.leftscroll {
+    width: 50%;
+    /* Adjust the width as needed */
+    height: 100vh;
+    /* Use viewport height for full height */
+    overflow: auto;
+    /* Enable scrolling for content */
+    /* padding: 20px; */
+    /* Add some padding for better appearance */
+    box-sizing: border-box;
+    /* Include padding in width/height */
+    color: aliceblue;
+    position: relative;
+}
+
+.leftscroll .team1 {
+    margin-left: 15%;
+    margin-top: 10%;
+    text-align: start;
+    font-size: 19px;
+}
+
+.teamcard {
+    margin-left: 15%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+@keyframes floating {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateX(10px);
+    }
+  }
+
+
+.team1 h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    /* color: rgb(139, 136, 136); */
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team1 h5 {
+    font-size: 23px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.team1 h6 {
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.linebar {
+    height: 3px;
+    background-color: red;
+    margin-left: 15%;
+    margin-top: 8%;
+    background-image:
+        linear-gradient(to right,
+            rgb(168, 168, 168), #151515);
+}
+
+.team1 span {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.team1 .scrolltex {
+    height: 30px;
+    width: 130px;
+    background-image:
+        linear-gradient(to top,
+            rgb(168, 168, 168), #151515);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 19px;
+}
+
+.teamcard h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px;
+    /* color: rgb(139, 136, 136); */
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.teamcard .texts h6 {
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.teamcard .idcards {
+    position: absolute;
+}
+
+
+
+
+/* .team1 .linebar {
+    border: 6px;
+    width: 400px;
+    border-width: 3px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to right,
+            rgb(230, 226, 226),
+            rgba(0, 0, 0, 0)) 100% 1;
+} */
+
+
+
+.leftscroll::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+.leftscroll::-webkit-scrollbar-thumb {
+    /* background-color: #ffffff; */
+    /* Color of the thumb */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+/* Style the scrollbar track */
+.leftscroll::-webkit-scrollbar-track {
+    /* background-color: #888; */
+    /* Color of the track */
+}
+
+/* Optional: Change thumb color on hover */
+.leftscroll::-webkit-scrollbar-thumb:hover {
+    /* background-color: #888; */
+    /* Color on hover */
+}
+
+@media (max-width: 480px) {
+    .full-team .rightteam {
+        width: 100%;
+    }
+
+    .full-team {
+        padding-bottom: 200px;
+    }
+
+    .full-team .rightteam img {
+        display: none;
+
+    }
+
+    .full-team .leftscroll {
+        width: 100%;
+    }
+
+    .full-team {
+        display: grid;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    .smdivice h3 {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Orbitron', sans-serif;
+        letter-spacing: 3px;
+        /* color: rgb(139, 136, 136); */
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (min-width: 480px) {
+    .smdivice h3 {
+        display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+    .team1 h1 {
+        font-size: 35px;
+    }
+
+    .full-team .rightteam {
+        width: 100%;
+    }
+
+    .full-team .leftscroll {
+        width: 100%;
+    }
+
+    .full-team {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .rightteam img {
+        display: none;
+    }
+
+    .teamcard .idcards {
+        position: relative;
+    }
+}
+
+/* @media (min-width: 1025px)  {
+    .team-container{
+        background-color: #151515;
+        width: auto;
+    }
+    body{
+        background-color: #151515;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+} */
