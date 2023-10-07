@@ -20,7 +20,9 @@ body {
     overflow: hidden;
     opacity: 0; /* Start with 0 opacity */
     animation: fadeIn 1s ease-in forwards;
+    
 }
+
 
 body::-webkit-scrollbar {
     display: none;
