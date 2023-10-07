@@ -12,7 +12,7 @@ const HomeMain = () => {
         // Simulate some loading time
         setTimeout(() => {
             setIsLoading(false);
-        }, 1000); // Adjust the duration as needed
+        }, 20); // Adjust the duration as needed
     }, []);
 
     return (

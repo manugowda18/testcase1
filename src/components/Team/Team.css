@@ -256,11 +256,20 @@
 
     .full-team .leftscroll {
         width: 100%;
+
         margin-left: 0;
         margin-top: 0;
     }
     .teamcard {
         margin-left: 0;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .teamcard .idcards{
+        padding-bottom: 125px;
+    }
+    .teamcard h6{
+        margin-left: 10%;
         margin-top: 20%;
         margin-bottom: 10%;
     }
@@ -274,9 +283,7 @@
         display: none;
     }
 
-    .teamcard .idcards {
-        position: relative;
-    }
+    
 }
 
 /* @media (min-width: 1025px)  {

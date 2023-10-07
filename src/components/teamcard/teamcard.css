@@ -3,7 +3,7 @@
 /* img{
     height: 130px;
     width: auto;
-} */ 
+} */
 .teamcontainerteam p {
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
@@ -26,16 +26,38 @@
     margin-right: 3px;
     line-height: 15px;
 }
+
 .teamcontainerteam .cardicon h6 {
     margin-top: 5px;
     margin-left: 2px;
 }
-.teamcontainerteam .cards{
+
+.teamcontainerteam .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 5px 5px 5px;
 }
-.teamcontainerteam .cardicon{
+
+.teamcontainerteam .cardicon {
     flex: 0 0 calc(30% - 10px);
+}
+
+@media (max-width:768px) {
+    .teamcontainerteam .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       justify-content: center;
+        
+    }
+    .teamcontainerteam .cardicon{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 18px;
+        margin-right: 18px;
+        line-height: 15px;
+        justify-content: space-between;
+    }
 }
