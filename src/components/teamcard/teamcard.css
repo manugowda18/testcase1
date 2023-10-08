@@ -21,7 +21,7 @@
 .teamcontainerteam .cardicon {
     margin-top: 20px;
     height: 200px;
-    width: 140px;
+    width: 100%;
     margin-left: 3px;
     margin-right: 3px;
     line-height: 15px;
@@ -44,20 +44,27 @@
     flex: 0 0 calc(30% - 10px);
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .teamcontainerteam .cards {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-       justify-content: center;
-        
+        margin-left: 0;
+        /* justify-content: center; */
+        bottom: 0;
     }
-    .teamcontainerteam .cardicon{
-        margin-top: 20px;
+
+    .teamcontainerteam img {
         width: 100%;
-        margin-left: 18px;
-        margin-right: 18px;
+    }
+
+    .teamcontainerteam .cardicon {
+        margin-top: 20px;
+        width: calc(50% - 10px);
+        /* Adjust the width as needed */
+        margin: 0 10px;
+        /* Add some margin between the cards */
         line-height: 15px;
-        justify-content: space-between;
+        width: 100%;
     }
 }

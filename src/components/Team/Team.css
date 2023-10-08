@@ -221,7 +221,7 @@
     .full-team {
         display: grid;
         margin-left: 4px;
-        margin-right: 4px;
+        
         margin-top: 30px;
         overflow: hidden;
     }
@@ -250,27 +250,33 @@
         font-size: 35px;
     }
 
-    .full-team .rightteam {
-        width: 100%;
+    .linebar {
+        height: 3px;
+        background-color: red;
+        margin-left: 1%;
+        margin-top: 8%;
+        background-image:
+            linear-gradient(to right,
+                rgb(168, 168, 168), #151515);
     }
 
     .full-team .leftscroll {
         width: 100%;
-
         margin-left: 0;
         margin-top: 0;
     }
-    .teamcard {
+    .leftscroll .teamcard {
         margin-left: 0;
         margin-top: 20%;
         margin-bottom: 10%;
     }
     .teamcard .idcards{
-        padding-bottom: 125px;
+        padding-bottom: 250px;
+        margin: 0 0 0 0;
+        padding: 0,0,0,0;
     }
     .teamcard h6{
-        margin-left: 10%;
-        margin-top: 20%;
+        margin-left: 3%;
         margin-bottom: 10%;
     }
 
@@ -281,6 +287,12 @@
 
     .rightteam img {
         display: none;
+    }
+    .leftscroll .team1 {
+        margin-left: 4%;
+        margin-top: 10%;
+        text-align: start;
+        
     }
 
     
