@@ -115,7 +115,7 @@ p {
     }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 480px) {
     .small-divice {
         display: none;
     }
@@ -130,7 +130,7 @@ p {
     .small-divice h3 {
         color: aliceblue;
         text-align: center;
-        font-family: 'Kanit', sans-serif;
+        font-family: 'PT Serif', serif;
         font-size: 20px;
         font-weight: 900;
         letter-spacing: 5px;
