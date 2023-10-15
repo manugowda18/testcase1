@@ -17,7 +17,6 @@ const HomeMain = () => {
 
     return (
         <>
-        <Preloader/> 
         <div className={`background-container ${isLoading ? 'loading' : ''}`}>
             <Navbar/>
             <Announcement />
