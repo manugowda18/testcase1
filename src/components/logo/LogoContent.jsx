@@ -1,10 +1,10 @@
 import "./LogoContent.css";
-import { Volyrix } from "../../assets";
+import { Volyrix , svglogo } from "../../assets";
 const LogoContent = () => {
     return (
 
         <div className="homelogoh" id="bottom" >
-            <img src={Volyrix} alt="logo" className="logo" />
+            <img src={svglogo} alt="logo" className="logo" />
         </div>
 
     )

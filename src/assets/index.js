@@ -42,6 +42,7 @@ import audioloop1 from "./b.mp3";
 import Prelogo from "./logo.png";
 import ImageLogoHome from "./imagehome.png"
 import Volyrix from "./Volyrix.png"
+import svglogo from "./nobg.svg";
 
 export {
   airbnb,
@@ -87,5 +88,6 @@ export {
   audioloop1,
   Prelogo,
   ImageLogoHome,
-  Volyrix
+  Volyrix,
+  svglogo
 };

@@ -6,48 +6,48 @@ const Teamcard = () => {
   const [cards] = useState([
     {
       ImageCard: TeamImage,
-      name: "Manojgowda1",
-      role: "Ceo-Founder",
+      name: "0x_Myth ☣️",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda2",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda3",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda4",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda5",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda6",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda4",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda5",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
     {
       ImageCard: TeamImage,
-      name: "Manojgowda6",
-      role: "Ceo-Founder",
+      name: "Ox_Nyx ☢️  ",
+      role: "⟪Web3 Dev⟫",
     },
   ]);
   return (
