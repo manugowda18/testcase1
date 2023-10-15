@@ -34,15 +34,14 @@
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
   .Bottom-image {
-    width: auto;
-    height: 400px;
+    display: none;
     /* Adjust as needed */
  }
 } 
 
 @media (max-width: 480px) {
   .Bottom-image {
-    object-fit: contain;
+    display: none;
     /* Adjust as needed */
   }
 }
